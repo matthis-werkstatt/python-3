@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 geheimnis = 1337
-versuch = -1
+versuch = -1 
 zaehler = 0
 
 while versuch != geheimnis:
