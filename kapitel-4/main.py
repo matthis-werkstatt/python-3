@@ -2,14 +2,13 @@
 
 geheimnis = 1337
 versuch = -1
-zaehler =0
+zaehler = 0
 
 while versuch != geheimnis:
-
     versuch = int(input("Raten Sie: "))
 
     if versuch < geheimnis:
-        print ("Zu klein")
+        print("Zu klein")
 
     if versuch > geheimnis:
         print("Zu groß")
